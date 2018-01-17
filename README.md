@@ -6,3 +6,6 @@ A: https://stackoverflow.com/questions/32997352/what-is-the-diference-between-pu
     --when using Spring Cloud Config Server, you should specify spring.application.name 
     and spring.cloud.config.server.git.uri inside bootstrap.yml
     --some encryption/decryption information
+    
+notice: @Controller and @RestController are different
+@Controller + @ResponseBody = @RestController
